@@ -1,11 +1,11 @@
-FROM node:10
+FROM node:8
 
 LABEL version="v1.0.0"
-LABEL repository="https://github.com/aquariuslt/github-actions-yarn"
-LABEL homepage="https://github.com/aquariuslt/github-actions-yarn"
-LABEL maintainer="Aquariuslt <superaquariuslt@gmail.com>"
+LABEL repository="https://github.com/teddyward/node-browsers-github-actions"
+LABEL homepage="https://github.com/teddyward/node-browsers-github-actions"
+LABEL maintainer="teddyward <teddy@kevalaanaltics.com>"
 
-LABEL com.github.actions.name="node-10-browsers"
+LABEL com.github.actions.name="node-8-browsers"
 LABEL com.github.actions.description="Wraps the npm CLI and yarn to enable common yarn commands with browsers environment"
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="blue"
